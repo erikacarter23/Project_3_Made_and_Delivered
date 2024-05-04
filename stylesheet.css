@@ -1,0 +1,33 @@
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 100 to 900
+
+.aleo {
+  font-family: "Aleo", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.navbar {
+    background-color:#9B3009 !important;
+    color: #FFFFFF !important;
+    font-family: "Aleo", serif;
+    display:flex;
+}
+.nav-item{
+    color: #FFFFFF !important;
+    font-family: "Aleo", serif;
+}
+.nav-link{
+    color: #FFFFFF !important;
+    font-family: "Aleo", serif;
+}
+.form-inline my-2 my-lg-0{
+    width:50%;
+}
+ul{
+    list-style-type: none;
+}
+li{
+    list-style-type: none;
+}
