@@ -26,6 +26,9 @@ h5{
     padding-top: 2%;
     padding-left: 2%;
 }
+.navbar1{
+    display:none;
+}
 .navbar {
     background-color:#9B3009 !important;
     color: #FFFFFF !important;
@@ -58,9 +61,6 @@ li{
   .navbar-brand2{
     display:none;
   }
-  .navbar-toggler-icon{
-    background-image: url(/images/Burger_Nav.svg) !important;
-      }
     
       .search_cart{
         display:flex;
@@ -194,6 +194,12 @@ text-align: center;
        padding-left: 25%;
        padding-right: 25%;
       }
+      .navbar1{
+        display:flex;
+      }
+    .navbar2{
+        display:none;
+    }
       .footer{
         display:flex;
         flex-direction: column;
