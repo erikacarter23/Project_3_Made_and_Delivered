@@ -59,7 +59,7 @@ li{
     display:none;
   }
   .navbar-toggler-icon{
-    background-image: url(./images/Burger_Nav.svg) !important;
+    background-image: url(/images/Burger_Nav.svg) !important;
       }
     
       .search_cart{
@@ -183,7 +183,6 @@ text-align: center;
       }
       .search_cart{
         display: flex;
-   
         padding: 0px;
         width:50% !important;
       }
