@@ -7,12 +7,31 @@
   font-weight: 400;
   font-style: normal;
 }
-
+h1{
+font-family: coolvetica, sans-serif;
+}
+h4{
+    font-family: "aleo", serif;
+    font-size: 20px;
+    line-height: 22.4px;
+    font-weight:400;
+    color:white;
+}
+h5{
+   font-family: coolvetica, sans-serif;
+   font-size: 25px; 
+   color: white;
+}
+.title{
+    padding-top: 2%;
+    padding-left: 2%;
+}
 .navbar {
     background-color:#9B3009 !important;
     color: #FFFFFF !important;
     font-family: "Aleo", serif;
     display:flex;
+    flex-wrap: nowrap;
 }
 .nav-item{
     color: #FFFFFF !important;
@@ -22,12 +41,175 @@
     color: #FFFFFF !important;
     font-family: "Aleo", serif;
 }
-.form-inline my-2 my-lg-0{
-    width:50%;
-}
 ul{
     list-style-type: none;
 }
 li{
     list-style-type: none;
 }
+.dropdown-item{
+    font-family: "Aleo", serif;
+    color:#4F4F4F;
+}
+.dropdown-item:hover {
+    background-color: #9B3009 !important;
+    color: white;
+  }
+  .navbar-brand2{
+    display:none;
+  }
+  .navbar-toggler-icon{
+    background-image: url(/images/Burger_Nav.svg) !important;
+      }
+    
+      .search_cart{
+        display:flex;
+        width:100%;
+        padding:0px;
+      }
+      .products{
+        display:flex;
+        justify-content: space-between;
+        align-content: space-between;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 5%;
+        flex-wrap: wrap;
+      }
+    .card{
+        border-radius: 15px;
+        box-shadow: 3px 3px 4px 0px #00000040;
+        margin-top: 5%;
+    }
+    .card-image{
+        border-radius: 15px 15px 0px 0px;
+    }
+    .product-name{
+        font-family:"Aleo", serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 9px;
+    text-align: left;
+    }
+    .product-price{
+        font-family:"Aleo", serif;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 10px;
+        text-align: left;
+    }
+    footer{
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: #9B3009;
+        height:max-content;
+        width:100%;
+        overflow:wrap;
+    }
+    .left{
+        width:max-content;
+        display:flex;
+        text-wrap: nowrap;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+        padding:25px;
+    }
+    .logo-slogan{
+       width:350px;
+       padding:20px;
+        display:flex;
+        justify-content: space-around;
+        align-content: center;
+align-items: center;
+text-align: center;
+    }
+    .btn{
+        width:194px;
+        height:46px;
+        background-color: #FD9D9C;
+        font-family:"Aleo", serif;
+        font-size: 16px;
+        font-weight: 700px;
+    }
+.right{
+    display: flex;
+    justify-content: right;
+    width: max-content;
+    padding:25px;
+    text-wrap: nowrap;
+    overflow: wrap;
+}
+.footer-header{
+    padding-right: 50px;
+}
+.social-media{
+    display:flex;
+    padding-top: 60px;
+}
+@media (max-width:1156px) {
+    .footer{
+    display:flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    }
+    .right{
+        flex-wrap: nowrap;
+    }
+    .footer-header{
+        display:flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        text-wrap: nowrap;
+    }
+}
+  @media (max-width:991px) {
+    .form-control{
+        padding: 0px;
+        width:100%;
+      }
+      .search_cart{
+        padding: 0px;
+        width:100%;
+      }
+
+  }
+  @media (max-width:800px) {
+    .form-control{
+        width:100% !important;
+
+      }
+      .search_cart{
+        display: flex;
+   
+        padding: 0px;
+        width:50% !important;
+      }
+      .navbar-brand{
+        display:none;
+      }
+      .navbar-brand2{
+        display: flex;
+       padding-left: 25%;
+       padding-right: 25%;
+      }
+      .right{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: max-content;
+        padding:25px;
+        text-wrap: nowrap;
+        overflow: wrap;
+    }
+  }
+  @media (max-width:600px){
+    .footer-header{
+        padding-bottom: 20px;
+    }
+    .social-media{
+        padding-top: 30px;
+    }
+  }
